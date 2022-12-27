@@ -1,0 +1,77 @@
+.iconos-redes {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 50px;
+  
+}
+.iconos-redes :hover{
+  color:rgb(187, 180, 171);
+}
+:link {
+  text-decoration: none;
+}
+:visited {
+  text-decoration: none;
+}
+:hover {
+  text-decoration: none;
+}
+:active {
+  text-decoration: none;
+}
+
+
+
+.header{
+  position: relative;
+  height: 80vh;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#titulo{
+  font-weight: 200;
+  font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#nombreCompleto{
+  font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#descripcion-puesto{
+  font-weight: 500;
+  font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+  margin-bottom: 30px;
+}
+.presentacion{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding-left: 2rem;
+}
+
+.subrayado {
+  display: block;
+  width: 60px;
+  height: 1.5px;
+  background-color: #f0233e;
+}
+
+#imagen-finanzas{
+  transform: scale(0.6);
+}
+
+#logo-unam{
+  transform:scale(0.9);
+}
+
